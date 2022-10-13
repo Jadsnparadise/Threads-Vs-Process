@@ -13,7 +13,7 @@ MultProcess.c - Recives the path of the files that contains matrix 1 and 2 made 
 
 MultThreads.c - Recives Recives the path of the files that contains matrix 1 and 2 made by Auxiliar.c and a number P, all this by the command line. P is the number of Threads it will be created to every Thread calculate (matrix1 rows * matrix2 columns/ P) cells, so it will be run in P flows or acctually in the number of threads the scheduling of the OS choose to run.
 
-# Warning
+# Warning ⚠️⚠️
 Threads and Process depends on something from the operational system called scheduling, the whole program and the test were developed on linux, so I'm not sure if the results are going to be the same on others OS, so I recommend to run it in Ubuntu-linux.
 
 # How to run it?
